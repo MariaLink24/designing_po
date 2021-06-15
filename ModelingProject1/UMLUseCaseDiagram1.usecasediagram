@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm12="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="538dc821-a478-4e9b-bb29-b272b4afdf2b" name="UMLUseCaseDiagram1" linkedPackageId="5b74b51b-ba67-4d69-844f-ae282411c7ac" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="96d13cb3-15d7-485b-b7fc-abeafbd9714b" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="68ffc089-0288-44cf-b12a-23f25beb1cca" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="0b1be264-f6e8-4a9f-b968-66fbd64cbd14">
+          <propertyInstance Id="44f65bf3-f460-46df-8aaa-8419d620e420" name="BaseName">
+            <elementDefinition Id="1cc6b3ae-2ea3-4916-878f-5e4d0448e264" />
+          </propertyInstance>
+          <elementDefinition Id="17d4bb8e-9bb6-4761-8c2b-412ba5588b4e" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="4760ea53-778e-43bc-bdaf-868ead2dd164">
+          <propertyInstance Id="9a0e8f42-4348-46bd-884d-b248a02b1bda" name="ClrAttributes">
+            <elementDefinition Id="b1383a73-04ec-4735-8cc8-ba27c161fe50" />
+          </propertyInstance>
+          <elementDefinition Id="a6eccac8-0320-4d4e-bb20-04eeb22a1742" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="8666adc2-58e7-43f1-8a56-5fc82ffe3810">
+          <propertyInstance Id="027e3f63-979e-4624-8191-a7cc91d75a04" name="Usings">
+            <elementDefinition Id="a54a2ea0-36ad-4c8f-8fe4-3205c0317e93" />
+          </propertyInstance>
+          <elementDefinition Id="9bcfa68a-de51-4877-845e-7cbb4fad1486" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="f4724ca9-6b0f-4573-9cba-6df34b0ddd5c" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="80f54809-f84e-4ea7-9498-41314d90f836" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="25500558-8515-4530-aed6-ee6b940c40a9">
+          <propertyInstance Id="3ca318da-19b8-4bf3-bb27-f2868da67e4e" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="a50488cd-8dca-4526-b778-a2d8d85157f0" />
+          </propertyInstance>
+          <elementDefinition Id="51ef9fca-4941-408d-a783-bac84e29cb6f" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="1b88f52f-4134-45ea-a940-74ac6bcb3774">
+          <propertyInstance Id="4413451a-ec11-433a-9343-7338508dcb82" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="3a74b00a-3604-43ee-b646-8afefb06a860" />
+          </propertyInstance>
+          <elementDefinition Id="2ab28cb9-7c28-42d6-9fca-867912e7b352" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="0c47d213-e60c-4fbb-b4cd-06b3fe71983f">
+          <propertyInstance Id="5c946acc-26cf-4857-9f13-4e72dad73777" name="ProjectPath" value="ClassTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|EnumTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|InterfaceTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|StructTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj">
+            <elementDefinition Id="2f08c305-bbe6-43b8-895d-0ab9da4869ea" />
+          </propertyInstance>
+          <elementDefinition Id="a9738b71-8355-430b-a8b1-24a9b54f82d0" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c7d94fb7-af55-4724-8108-7fb57a06700d">
+          <propertyInstance Id="2813bf01-9b5e-40d9-ad8f-fa81cd18f5c0" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="2ddddc52-80bb-44f3-ad15-3c902d71b76d" />
+          </propertyInstance>
+          <elementDefinition Id="95b98ba9-fe10-4f55-84cc-9e9d690805dd" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d9290d08-dde4-4323-a685-4dd02c20ac2f">
+          <propertyInstance Id="ef60d6ec-4a35-4a9a-a2d0-524e25536a6a" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="c5ca3254-6b75-42d4-944d-0db31c349223" />
+          </propertyInstance>
+          <elementDefinition Id="78cdb76c-8d62-4189-83d0-1fb1abb918a4" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="076ffd52-6ff8-4459-9dc7-5582388f78d2">
+          <propertyInstance Id="6ace16dc-b93f-48d9-86cf-cdaac43a0ef4" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="7c00fb10-3f06-47fe-bf46-f829ca835239" />
+          </propertyInstance>
+          <elementDefinition Id="b1d52705-b85b-4021-8901-73d21b012486" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c86d1be8-81e5-484b-a66c-70b094747f46">
+          <propertyInstance Id="87521cd3-efbf-4030-b48d-7ebf93ac5f98" name="Parameters">
+            <elementDefinition Id="65f5d15f-30a6-4527-ab89-1ec06b8ec7e0" />
+          </propertyInstance>
+          <elementDefinition Id="7eece90a-f39e-480c-9d9e-059849b751b4" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="001bd0e3-619b-4911-856b-38fc693a0982">
+      <profileInstance Id="20789a99-647c-4499-ab1e-afe4c2f2f5a7" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="9bdb89b6-505c-4cb6-95d9-348db78390ea">
+      <profileInstance Id="20132f5e-1ba8-4c88-a539-310118f0daa4" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="8a01474d-02b8-4ffd-9c04-ba4045fc5973">
+      <profileInstance Id="76b7a99b-adcf-415d-b5ca-2561ce004dbe" name="CSharpProfile">
+        <elementDefinition Id="9c366c2e-52d7-442c-9832-bff8088096e1" />
+      </profileInstance>
+      <elementDefinition Id="a70b3973-c56c-48a8-9c22-8fa7419c9a71" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="32d54422-52ce-4512-818b-462241bb4195">
+      <profileInstance Id="f0a32045-0103-40dd-8f7c-edca88c64c2e" name="TextTemplateBindings">
+        <elementDefinition Id="0619bd2d-1b29-4aca-8100-5ae0291676dc" />
+      </profileInstance>
+      <elementDefinition Id="0a2a3538-b774-4a57-88c9-5e233cfe4325" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="802fba52-dfb9-4859-b25c-7837d34cdf08" name="User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="71076653-9bb0-4131-bc33-56620a220b69" />
+        <targetEnds>
+          <association Id="3d7369a8-4c35-4534-a5ac-4cae47452682" isDerived="false" sourceEndRoleName="User" targetEndRoleName="add costs" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="55c55ab5-fb3e-40d5-a4d0-c5014b34bb8e" LastKnownName="add costs" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="733331c1-7417-4b8d-94bf-47da6ae174cb" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="91e770db-9ad2-47cb-8348-444cc83e75fd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dc4fe9b1-21bc-4b5e-a99c-afa06c72db93" name="add costs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c0701618-6391-45f9-aba9-84eefbceb1c1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="74531fc3-c2eb-4899-b780-dfaffd6bc77b" />
+          </association>
+          <association Id="4ba5a527-7fa4-48ef-b1e7-f7e6fc326cff" isDerived="false" sourceEndRoleName="User" targetEndRoleName="add income" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="94e748b1-c429-4394-a17b-aa84821ffb6d" LastKnownName="add income" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="be03f647-285f-4bb7-89c7-36db0c267302" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1d4743f5-3593-4736-8b25-501ed879e6d4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="efdcfd7c-0738-479f-8a7e-a9037643c4b9" name="add income" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2a0853df-d49d-4484-a15a-7d2a2cdf0372" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d655fbdf-5eb0-47a0-8f2b-c2c4d2533d23" />
+          </association>
+          <association Id="9232af0b-4bc4-44a5-b682-25a85d5f840c" isDerived="false" sourceEndRoleName="User" targetEndRoleName="get financial analysis" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="28133187-cd9a-4134-8f28-13a53425f1f5" LastKnownName="get financial analysis" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="07290cb3-51b4-42c3-ac10-7bfbeb352d96" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4ba513c6-a96d-4c1f-9a58-dd78571a81d0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="29e9160c-7548-47f8-83cf-eae68b3476df" name="get financial analysis" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b0b139f4-5c3f-46a4-8cfb-ba2ad651cb63" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4407d21e-dfd3-40db-8803-4b374cfb1bbb" />
+          </association>
+          <association Id="9c6cb1ba-02b8-4e86-9ca7-ea66f2050be7" isDerived="false" sourceEndRoleName="User" targetEndRoleName="get balance" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a330122b-5a82-4c6f-b9e8-59b78fd9b7b4" LastKnownName="get balance" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="75a08cd1-78f1-4214-9163-4229f7a1f351" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="58fcd630-7fd8-4cfa-9b24-a0aa00aad0d1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cf131f0d-b172-4300-99f1-a59bcbc65534" name="get balance" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7e3bbf6a-04a9-46e8-b433-3f2a9617a5ed" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d3a19ad0-72b6-4890-8ac3-a0133a8a84ce" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="de5e6179-9057-4919-a376-146b424357fd" name="Finance app" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5b8fd964-19ba-420b-9b26-0ba33fdfa374" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="55c55ab5-fb3e-40d5-a4d0-c5014b34bb8e" name="add costs" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="36aecc2c-382d-41cc-ab33-1e6640e3f30b" />
+        <subjects>
+          <subsystemMoniker Id="de5e6179-9057-4919-a376-146b424357fd" LastKnownName="Finance app" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="94e748b1-c429-4394-a17b-aa84821ffb6d" name="add income" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="602374dd-efe7-40da-b485-9357b5ea10e6" />
+        <subjects>
+          <subsystemMoniker Id="de5e6179-9057-4919-a376-146b424357fd" LastKnownName="Finance app" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="28133187-cd9a-4134-8f28-13a53425f1f5" name="get financial analysis" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ab785aec-0189-4760-bf21-44dd2eca17bf" />
+        <generalsInternal>
+          <generalization Id="07a2e179-a0fb-446b-a37a-10b033f9743c" isSubstitutable="false">
+            <useCaseMoniker Id="a330122b-5a82-4c6f-b9e8-59b78fd9b7b4" LastKnownName="get balance" />
+            <elementDefinition Id="b0835fe1-6ccc-4431-b3e8-97ecedc38379" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker Id="de5e6179-9057-4919-a376-146b424357fd" LastKnownName="Finance app" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="a330122b-5a82-4c6f-b9e8-59b78fd9b7b4" name="get balance" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="63e72ac4-14de-47df-86a7-b7bcfe084be6" />
+        <subjects>
+          <subsystemMoniker Id="de5e6179-9057-4919-a376-146b424357fd" LastKnownName="Finance app" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="5b74b51b-ba67-4d69-844f-ae282411c7ac" name="ModelingProject1">
+    <elementDefinition Id="4c6bc3c9-a528-4876-a3a7-b79b25dbcb8a" />
+  </package>
+</useCaseModelRoot>
